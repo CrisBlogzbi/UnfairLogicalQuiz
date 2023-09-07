@@ -1,39 +1,40 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Unfair Logical Quiz
 
-Welcome,
+The Unfair Logical Quiz is a web-based quiz application that challenges your logic with a series of tricky questions. It's designed to be a fun and entertaining way to test your knowledge and see how well you can answer unconventional questions.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Header](/assets/readme-images/header.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
 
-## Codeanywhere Reminders
+- Four unique and thought-provoking questions.
+- Multiple-choice answers for each question.
+- Immediate feedback on your answers.
+- A final score indicating your performance out of 4.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Technologies Used
 
-`python3 -m http.server`
+- HTML: Provides the structure of the quiz.
+- CSS: Handles the styling and layout of the quiz elements.
+- JavaScript: Implements the quiz logic and user interactions.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## How to Play
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+1. Read each question carefully.
 
-`http_server`
+2. Click on one of the provided answers to select it. Your selected answer will be highlighted.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+3. After answering all questions, click the "Submit" button to see your score.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+4. Your score will be displayed at the bottom of the page, indicating how many correct answers you provided out of 4.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Screenshots
 
-To log into the Heroku toolbelt CLI:
+![Quiz Screenshot](screenshot.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Author
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+This Unfair Logical Quiz was created by [Your Name].
 
 ---
 
-Happy coding!
+Enjoy the quiz, and have fun challenging your logic! If you have any questions or suggestions, feel free to [contact me](mailto:your.email@example.com).
