@@ -22,9 +22,17 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: lightblue;
-    border: 1px solid #ccc;
+    background-color: rgb(115, 185, 187);
+    border: 3px solid black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #question-1 {
+    border-top-width: 2px;
+  }
+
+  #question-4 {
+    border-bottom-width: 2px;
   }
 
   #submit-button {
@@ -45,15 +53,27 @@ body {
 /* Classes */
 
 .question {
-  margin-bottom: 20px;
+  margin: 0;
+  padding: 0 10px;
   font-size: 20px;
+  border-style: solid;
+  border-color: rgb(95, 91, 91);
+  background-color: lightblue;
+  border-width: 1px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  
 }
 
+.question-p {
+    font-size: 110%;
+}
 .answer {
   margin-bottom: 5px;
+  padding: 0 10px;
   cursor: pointer;
   border: 1px solid transparent;
-  transition: border-color 0.2s, background-color 0.2s;
+  transition: border-color 0.5s, background-color 0.5s;
 }
 
 .answer:hover {
@@ -63,9 +83,10 @@ body {
 /* selectAnswer() */
 
 .selected {
-    border-style: dotted;
+    border-style: dashed;
+    border-width: 3px;
     border-color: black;
-    background-color: blue;
+    background-color: yellow;
   }
 
   /* revealAnswer()*/
