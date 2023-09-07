@@ -60,10 +60,20 @@ body {
     border-color: black;
   }
 
-/* Select */
+/* selectAnswer() */
 
 .selected {
     border-style: dotted;
     border-color: black;
     background-color: blue;
+  }
+
+  /* revealAnswer()*/
+
+  .correct {
+    background-color: lightgreen;
+  }
+
+  .wrong {
+    background-color: tomato;
   }

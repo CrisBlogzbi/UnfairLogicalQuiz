@@ -9,7 +9,20 @@ function selectAnswer() {
     answer.addEventListener('click', selectAnswer);
   });
 
-function revealAnswers() {
-
-}
-
+  function revealAnswers() {
+    const answers = document.querySelectorAll('.answer');
+  
+    answers.forEach(answer => {
+      const selectedAnswer = answer.getAttribute('data-answer');
+  
+      if (answer.classList.contains('selected')) {
+        if (selectedAnswer === 'correct') {
+          answer.classList.add('correct');
+        } else {
+          answer.classList.add('wrong');
+        }
+      }
+  
+    });
+  
+  }
