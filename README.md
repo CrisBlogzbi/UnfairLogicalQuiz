@@ -2,14 +2,24 @@
 
 The Unfair Logical Quiz is a web-based quiz application that challenges your logic with a series of tricky questions. It's designed to be a fun and entertaining way to test your knowledge and see how well you can answer unconventional questions.
 
-![Header](/assets/readme-images/header.png)
-
-## Features
-
 - Four unique and thought-provoking questions.
 - Multiple-choice answers for each question.
 - Immediate feedback on your answers.
 - A final score indicating your performance out of 4.
+
+![Header](/assets/readme-images/header.png)
+
+## Features
+
+### Body
+
+![Size Responsive](/assets/readme-images/size-responsiveness.png)
+
+The quiz consists of: 
+
+- A header
+- 4 questions with 4 answers
+- A submit button.
 
 ## Technologies Used
 
@@ -27,14 +37,4 @@ The Unfair Logical Quiz is a web-based quiz application that challenges your log
 
 4. Your score will be displayed at the bottom of the page, indicating how many correct answers you provided out of 4.
 
-## Screenshots
-
-![Quiz Screenshot](screenshot.png)
-
-## Author
-
-This Unfair Logical Quiz was created by [Your Name].
-
----
-
-Enjoy the quiz, and have fun challenging your logic! If you have any questions or suggestions, feel free to [contact me](mailto:your.email@example.com).
+Enjoy the quiz, and have fun challenging your logic!
