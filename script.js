@@ -15,18 +15,22 @@ function selectAnswer() {
   
     answers.forEach(answer => {
       const selectedAnswer = answer.getAttribute('data-answer');
+      if (selectedAnswer === 'correct') {
+        answer.classList.add('correct');
+      }
+      answer.removeEventListener('click', selectAnswer);
+    });
   
-      if (answer.classList.contains('selected')) {
-        if (selectedAnswer === 'correct') {
-          answer.classList.add('correct');
+    document.querySelectorAll('.question').forEach(question => {
+      const selectedAnswer = question.querySelector('.answer.selected');
+      if (selectedAnswer) {
+        if (selectedAnswer.getAttribute('data-answer') === 'correct') {
           score++;
         } else {
-          answer.classList.add('wrong');
+          selectedAnswer.classList.add('wrong');
         }
       }
-
-      answer.removeEventListener('click', selectAnswer);
-
     });
+  
     document.getElementById("result").textContent = `You scored ${score} out of 4.`;
   }
