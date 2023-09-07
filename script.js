@@ -13,6 +13,11 @@ function selectAnswer() {
     const answers = document.querySelectorAll('.answer');
     let score = 0;
   
+
+    answers.forEach(answer => {
+        answer.style.cursor = 'not-allowed';
+      });
+
     answers.forEach(answer => {
       const selectedAnswer = answer.getAttribute('data-answer');
       if (selectedAnswer === 'correct') {
@@ -33,4 +38,8 @@ function selectAnswer() {
     });
   
     document.getElementById("result").textContent = `You scored ${score} out of 4.`;
+
+    const submitButton = document.getElementById("submit-button");
+  submitButton.disabled = true;
+  submitButton.style.cursor = 'not-allowed';
   }

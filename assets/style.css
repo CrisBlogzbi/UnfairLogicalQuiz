@@ -56,7 +56,8 @@ body {
 /* Classes */
 
 .question {
-margin: 0;
+    
+    margin: 0;
   padding: 0 10px;
   font-size: 20px;
   border-style: solid;
@@ -65,7 +66,6 @@ margin: 0;
   border-width: 1px;
   border-left-width: 2px;
   border-right-width: 2px;
-  
 }
 
 .question-p {
@@ -109,4 +109,26 @@ margin: 0;
 
   .wrong {
     background-color: tomato;
+  }
+
+  /* Media-query tablets*/
+
+  @media (max-width: 768px) {
+    #quiz-container {
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+
+  /* Media-query smartphones*/
+
+  @media (max-width: 480px) {
+    #quiz-container {
+      padding: 5px;
+      font-size: 14px;
+    }
+  
+    #quiz-header {
+      font-size: 36px;
+    }
   }
