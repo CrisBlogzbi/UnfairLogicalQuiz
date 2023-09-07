@@ -1,4 +1,62 @@
+/* Main Style */
+
 body {
     background-color: teal;
     font-family: Arial, sans-serif;
   }
+
+/* IDs */
+  #quiz-header {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  #quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #submit-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  #submit-button:hover {
+    background-color: darkblue;
+  }
+
+/* Classes */
+
+.question {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.answer {
+  margin-bottom: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.answer:hover {
+    border-color: black;
+  }
+

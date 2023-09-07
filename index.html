@@ -9,42 +9,41 @@
 </head>
 
 
-<body>
-    <div>
-        Unfair Logical Quiz
-      </div>
-      <div>
-        <div>
-          <p>Question 1: What is heavier? A kg of steel or a kg of feathers.</p>
-          <div>Steel</div>
-          <div>Feathers</div>
-          <div>Both are the same</div>
-          <div>45?</div>
-        </div>
-        <div>
-          <p>Question 2: 2b ||</p>
-          <div>2x = 2b*2x</div>
-          <div>Cucumber</div>
-          <div>!too bee</div>
-          <div>not 2c</div>
-        </div>
-        <div>
-          <p>Question 3: What is 12x13?</p>
-          <div>1213</div>
-          <div>At least 2</div>
-          <div>25</div>
-          <div>154</div>
-        </div>
-        <div>
-          <p>Question 4: What is "12" * "13"?</p>
-          <div>1213</div>
-          <div>At least 2</div>
-          <div>25</div>
-          <div>154</div>
-        </div>
-        <button>Submit</button>
-        <p></p>
-      </div>
+<div id="quiz-header">
+    Unfair Logical Quiz
+  </div>
+  <div id="quiz-container">
+    <div class="question">
+      <p>Question 1: What is heavier? A kg of steel or a kg of feathers.</p>
+      <div class="answer">Steel</div>
+      <div class="answer">Feathers</div>
+      <div class="answer">Both are the same</div>
+      <div class="answer">45?</div>
+    </div>
+    <div class="question">
+      <p>Question 2: 2b ||</p>
+      <div class="answer">2x = 2b*2x</div>
+      <div class="answer">Cucumber</div>
+      <div class="answer">!too bee</div>
+      <div class="answer">not 2c</div>
+    </div>
+    <div class="question">
+      <p>Question 3: What is 12x13?</p>
+      <div class="answer">1213</div>
+      <div class="answer">At least 2</div>
+      <div class="answer">25</div>
+      <div class="answer">154</div>
+    </div>
+    <div class="question">
+      <p>Question 4: What is "12" * "13"?</p>
+      <div class="answer">1213</div>
+      <div class="answer">At least 2</div>
+      <div class="answer">25</div>
+      <div class="answer">154</div>
+    </div>
+    <button id="submit-button" onclick="revealAnswers()">Submit</button>
+    <p id="result"></p>
+  </div>
     <script src="script.js"></script>
 </body>
 
