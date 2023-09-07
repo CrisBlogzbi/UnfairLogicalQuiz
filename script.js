@@ -11,6 +11,7 @@ function selectAnswer() {
 
   function revealAnswers() {
     const answers = document.querySelectorAll('.answer');
+    let score = 0;
   
     answers.forEach(answer => {
       const selectedAnswer = answer.getAttribute('data-answer');
@@ -18,11 +19,14 @@ function selectAnswer() {
       if (answer.classList.contains('selected')) {
         if (selectedAnswer === 'correct') {
           answer.classList.add('correct');
+          score++;
         } else {
           answer.classList.add('wrong');
         }
       }
-  
+
+      answer.removeEventListener('click', selectAnswer);
+
     });
-  
+    document.getElementById("result").textContent = `You scored ${score} out of 4.`;
   }
