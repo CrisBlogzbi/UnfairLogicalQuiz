@@ -76,6 +76,11 @@ The quiz is designed to be responsive, ensuring an appealing experience on vario
 
 ![Jigsaw Validator](assets/readme-images/css-validator.png)
 
+- JS
+    - No errors were found when passing through the official Jshint validator.
+
+![Jshint Validator](assets/readme-images/js-validator.png)
+
 - Lighthouse
     - Passed the Lighthouse developer tool check.
 
