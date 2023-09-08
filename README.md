@@ -58,7 +58,7 @@ The quiz is designed to be responsive, ensuring an appealing experience on vario
 
 3. After answering all questions, click the "Submit" button to see your score.
 
-4. Your score will be displayed at the under the submit button, indicating how many correct answers you provided out of 4.
+4. Your score will be displayed under the submit button, indicating how many correct answers you provided out of 4.
 
 5. Challenge your friends to beat your score first try and prove that logic can be unfair!
 
