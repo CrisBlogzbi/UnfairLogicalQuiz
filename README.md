@@ -97,5 +97,6 @@ The quiz was deployed to GitHub Pages. Follow these steps to deploy:
 
 [Play the Unfair Logical Quiz](https://crisblogzbi.github.io/UnfairLogicalQuiz/)
 
-### READ.me was structured with the help of ChatGPT in the style of the READ.me of [ThePerfectEgg](https://github.com/CrisBlogzbi/ThePerfectEgg/tree/main)
+##### Developer Note
+- READ.me was structured with the help of ChatGPT in the style of the READ.me of [ThePerfectEgg](https://github.com/CrisBlogzbi/ThePerfectEgg/tree/main)
 
