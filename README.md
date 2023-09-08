@@ -21,6 +21,9 @@ The quiz consists of four questions, each with multiple-choice answers. Here's h
 - Click the "Submit" button to see your score immediately.
 
 ![Sumbit](assets/readme-images/select.png)
+
+- The Submit Button will turn green when hovered over.
+
 ![Submit-Hover](assets/readme-images/submit-hover.png)
 
 ## Styling
@@ -33,7 +36,7 @@ To maintain the theme of the quiz, I've used a color palette inspired by the con
 - The questions are presented in light blue, representing the uncertainty of unconventional questions.
 - Correct answers are highlighted in light green, while incorrect answers turn tomato red.
 
-![Color Palette](assets/readme-images/color-palette.png)
+![](assets/readme-images/color-palette.png)
 
 ### Responsive Design
 
@@ -62,30 +65,18 @@ The quiz is designed to be responsive, ensuring an appealing experience on vario
 
 ### Unfixed Bugs
 
-In rare cases, social media icons may not load. This issue could be due to the icons themselves or a potential coding mistake.
+No bugs were found.
 
 ## Deployment
 
-The quiz was deployed to GitHub Pages. Follow these steps to deploy your own version:
+The quiz was deployed to GitHub Pages. Follow these steps to deploy:
 
 1. In your GitHub repository, go to the Settings tab.
 2. In the "Code and automation" section, click on the "Pages" tab.
 3. Choose the source as "Deploy from branch" and select the main/root branch.
 4. Optionally, set up a custom domain if desired.
-5. Save your settings, and you'll find the link to your live quiz at the top of the page.
+5. Save your settings, and you'll find the link to your live site at the top of the page.
 
-[Play the Unfair Logical Quiz](https://yourquizlinkhere.com)
+[Play the Unfair Logical Quiz](https://crisblogzbi.github.io/UnfairLogicalQuiz/)
 
-## Credits
 
-### Content
-
-- Quiz questions and concepts inspired by unconventional logic puzzles.
-
-### Media
-
-- Images used in this README are sourced from [Stock Adobe](https://stock.adobe.com).
-
-Enjoy the Unfair Logical Quiz and have fun testing your unconventional logic skills! If you have any questions or suggestions, feel free to [contact us](mailto:your.email@example.com).
-
-![Footer Icons](assets/readme-images/social-icons.png)
