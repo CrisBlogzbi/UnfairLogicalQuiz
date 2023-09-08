@@ -1,31 +1,45 @@
-# Unfair Logical Quiz
+# The Unfair Logical Quiz
 
-The Unfair Logical Quiz is a web-based quiz application that challenges your logic with a series of tricky questions. It's designed to be a fun and entertaining way to test your knowledge and see how well you can answer unconventional questions.
+![Quiz Header](assets/readme-images/header.png)
 
-- Four unique and thought-provoking questions.
-- Multiple-choice answers for each question.
-- Immediate feedback on your answers.
-- A final score indicating your performance out of 4.
-
-![Header](/assets/readme-images/header.png)
+Welcome to The Unfair Logical Quiz. It is a web-based quiz application that challenges your logic with a series of tricky questions. It's designed to be a fun and entertaining way to test your knowledge and intuition and see how well you can answer unconventional questions.
 
 ## Features
 
-### Body
+### Quiz Structure
 
-![Size Responsive](/assets/readme-images/size-responsiveness.png)
+The quiz consists of four questions, each with multiple-choice answers. Here's how the quiz is structured:
 
-The quiz consists of: 
+- **Question 1:** What is heavier? A kg of steel or a kg of feathers.
+- **Question 2:** 2b ||
+- **Question 3:** What is 12x13?
+- **Question 4:** What is "12" * "13"?
 
-- A header
-- 4 questions with 4 answers
-- A submit button.
+### User Interaction
 
-## Technologies Used
+- Select your answers by clicking on the options provided. The selected answer will be highlighted.
+- Click the "Submit" button to see your score immediately.
 
-- HTML: Provides the structure of the quiz.
-- CSS: Handles the styling and layout of the quiz elements.
-- JavaScript: Implements the quiz logic and user interactions.
+![Sumbit](assets/readme-images/select.png)
+![Submit-Hover](assets/readme-images/submit-hover.png)
+
+## Styling
+
+### Color Palette
+
+To maintain the theme of the quiz, I've used a color palette inspired by the concept of "unfairness":
+
+- The background is teal, reminiscent of the unfairness of life's twists and turns.
+- The questions are presented in light blue, representing the uncertainty of unconventional questions.
+- Correct answers are highlighted in light green, while incorrect answers turn tomato red.
+
+![Color Palette](assets/readme-images/color-palette.png)
+
+### Responsive Design
+
+The quiz is designed to be responsive, ensuring an appealing experience on various devices, including laptops, tablets, and smartphones.
+
+![Responsive Design](assets/readme-images/size-responsiveness.png)
 
 ## How to Play
 
@@ -37,4 +51,41 @@ The quiz consists of:
 
 4. Your score will be displayed at the bottom of the page, indicating how many correct answers you provided out of 4.
 
-Enjoy the quiz, and have fun challenging your logic!
+5. Challenge your friends to beat your score first try and prove that logic can be unfair!
+
+## Testing
+
+### Validator Testing
+
+- HTML: No errors were returned when passing through the official W3C validator.
+- CSS: No errors were found when passing through the official Jigsaw validator.
+
+### Unfixed Bugs
+
+In rare cases, social media icons may not load. This issue could be due to the icons themselves or a potential coding mistake.
+
+## Deployment
+
+The quiz was deployed to GitHub Pages. Follow these steps to deploy your own version:
+
+1. In your GitHub repository, go to the Settings tab.
+2. In the "Code and automation" section, click on the "Pages" tab.
+3. Choose the source as "Deploy from branch" and select the main/root branch.
+4. Optionally, set up a custom domain if desired.
+5. Save your settings, and you'll find the link to your live quiz at the top of the page.
+
+[Play the Unfair Logical Quiz](https://yourquizlinkhere.com)
+
+## Credits
+
+### Content
+
+- Quiz questions and concepts inspired by unconventional logic puzzles.
+
+### Media
+
+- Images used in this README are sourced from [Stock Adobe](https://stock.adobe.com).
+
+Enjoy the Unfair Logical Quiz and have fun testing your unconventional logic skills! If you have any questions or suggestions, feel free to [contact us](mailto:your.email@example.com).
+
+![Footer Icons](assets/readme-images/social-icons.png)
